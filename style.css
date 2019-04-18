@@ -1,0 +1,103 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+ 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.homepage-body {
+  background-color: #F0EAD6;
+  
+}
+
+.column {
+  align-content: center;
+}
+.column-gap {
+  column-gap: 40px
+}
+
+.gif {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+}
+
+.transparency-body {
+ background-color: #F0EAD6; 
+}
+.myheader2 {
+  font-family: oblique;
+  font-size: 50px;
+  
+}
+
+/* CSS for Food Transparency Page */
+/* title of page */
+#page-title {
+  text-align: center;
+}
+
+/* picture of papa johns */
+#papa-johns-img {
+   text-align: left; 
+}
+
+#panera-bread-img {
+  text-align: right;
+}
+
+.ft-image img {
+  width: 500px;
+  height: auto;  
+}
+
+/* CSS for the nav bar */
+
+#nav-placeholder ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#nav-placeholder li {
+  float: left;
+}
+
+#nav-placeholder li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav-placeholder li a:hover {
+  background-color: #666A86;
+}
+
+#nav-placeholder .active {
+  background-color: #4CAF50;
+}
+/* TO CHANGE SOMETHING WITH CSS */
+/* tagname {
+  CSS property : value;
+  CSS property : value;
+  
+} */
+
